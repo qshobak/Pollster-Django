@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '$ve)6)$&mu^4t1q1$r*a%y84bly%w!-n*#n@xgpe=8k$$^xv(q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pollsterkasim.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
